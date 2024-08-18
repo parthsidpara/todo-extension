@@ -1,0 +1,84 @@
+body{
+    width: 350px;
+    height: 550px;
+}
+
+/* Making top div flex */
+#top-div{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 350px;
+    /* border: 1px solid black; */
+}
+
+/* Styling the close btn */
+#close-btn-div button{
+    border-radius: 100%;
+    border: none;
+    color: red;
+}
+#close-btn-div button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+
+/* Styling the input field and + button */
+#second-div{
+    display: flex;
+    justify-content: flex-start;
+}
+#second-div input{
+    border-radius: 16px;
+    border: 0.5px solid black;
+    font-size: 1.2em;
+    width: 80%;
+    padding: 10px 10px;
+}
+#second-div button{
+    border-radius: 100%;
+    width: 40;
+    font-size: x-large;
+    margin-left: 07px;
+    transition: transform 0.3s ease-in-out;
+}
+#second-div button:hover{
+    transform: rotate(90deg);
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+
+/* Styling all-tasks div section */
+#all-tasks{
+    background-color: beige;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.task-card-btn{
+    border-radius: 16px;
+    padding: 6px 6px; 
+}
+.task-card-btn:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.task-card{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    height: 39px;
+    font-size: larger;
+    transition: transform 0.2s ease-in-out;
+}
+.task-card:hover{
+    transform: scale(1.02,1.01);
+    cursor: pointer;
+    background-color: rgb(0, 199, 199);
+}
