@@ -23,7 +23,7 @@ function addTask(){
     const taskDiv = document.createElement("div");
     taskDiv.classList.add("task-card");
     taskDiv.innerHTML = `
-        ${taskValue} 
+        <p class="whatisTask">${taskValue}</p>
         <div class='btn-container'>
             <button class="task-card-btn delete-task-btn">Delete</button>
             <button class="task-card-btn edit-task-btn">Edit</button>
